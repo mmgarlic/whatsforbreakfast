@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(242, 242, 237);
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+    width: 100%;
+    height: 6vw;
+    background-color: rgb(111, 50, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+.website-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3vw;
+    margin-left: 1vw;
+}
+
+.website-subtitle {
+    font-size: 1vw;
+    margin-top: -1vw;
+    margin-bottom: 4vw;
+    opacity: .5;
+}
+
+.icon {
+    width: 1vw;
+    height: 1vw;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+}
+
+.content {
+    margin-left: 22vw;
+    padding: 20px;
+}
+
+.food-item {
+    background: #222;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.food-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.food-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.food-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+}
+
+.foodcomponent {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-bottom: .5vw;
+    padding-left: .2vw;
+    padding-right: .2vw;
+    margin-bottom: .5vw;
+    padding: 15px;
+    background-color: #6d3131;
+    text-align: center;
+}
+
+.country {
+    opacity: .5;
+    font-size: 2vh;
+}
+
+.name {
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+.description {
+    font-size: 2vh;
+    max-width: 25vw;
+}
+
+.flavour,
+.temperature,
+.dietary {
+    font-size: 2vh;
+    margin: 0.5vh 0;
+    padding: 0.5vh 1vh;
+    background-color: rgb(242, 242, 237);
+    color: #6d3131;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.flavour {
+    margin-top: 1.5vw;
+}
+
+.dietary {
+    max-width: 23vw;
+}
